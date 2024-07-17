@@ -1,0 +1,107 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+main {
+    background-color: #1a1a1a;
+    padding: 50px 0px;
+}
+
+
+
+main section {
+    background-color: #1a1a1a;
+
+}
+
+main section h2 {
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 2.25rem;
+    font-weight: 300;
+    text-align: center;
+
+
+}
+
+main section p {
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 400;
+    line-height: 1.6;
+
+
+
+}
+
+#iki button {
+    margin-top: 30px;
+    background-color: black;
+    padding: 10px 30px;
+    border: none;
+    color: white;
+    cursor: pointer;
+    transition: .3s all;
+    font-family: sans-serif;
+}
+
+#iki button:hover {
+    background-color: yellow;
+    color: black;
+}
+
+#iki {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 50px;
+
+
+}
+
+.sekil {
+    width: 300px;
+    height: 300px;
+}
+
+
+
+.sekil img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.contaheader {
+    width: 80vw;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    row-gap: 25px;
+}
+
+footer {
+    background-color: #333333;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3px;
+    color: white;
+}
+
+@media(max-width:600px){
+ main section p{
+    text-align: center;
+ }
+ .contaheader{
+    justify-content: center;
+ }
+}
+
